@@ -16,5 +16,5 @@ class BirthdayForm(forms.ModelForm):
         # Указываем, что надо отобразит все поля.
         fields = '__all__'
         widgets = {
-            'birthday': forms.DateInput(attrs={'type': 'date'})
+            'birthday': forms.DateInput(format='%Y-%m-%d', attrs={'type': 'date'})
         } 
