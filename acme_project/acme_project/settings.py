@@ -95,3 +95,7 @@ MEDIA_URL = 'media/'
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'  # Подключаем бэкенд filebased.EmailBackend:
 
 EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'  # Указываем директорию, в которую будут сохраняться файлы писем:
+
+LOGIN_REDIRECT_URL = 'pages:homepage'
+
+LOGOUT_REDIRECT_URL = 'pages:homepage'
