@@ -99,3 +99,5 @@ EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'  # Указываем директо�
 LOGIN_REDIRECT_URL = 'pages:homepage'
 
 LOGOUT_REDIRECT_URL = 'pages:homepage'
+
+LOGIN_URL = 'login' 
